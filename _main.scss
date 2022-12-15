@@ -1,0 +1,43 @@
+.menu {
+    background-color:$text-white;
+    width: 1920px;
+    height: 85px;
+    @include flex(space-evenly,center);
+
+    a {
+        color:$text-main;
+        text-decoration: none;
+        // font-family: 'Nunito';
+        // font-style: normal;
+        // font-weight: 700;
+        // font-size: 16px;
+        @include nunito ();
+        @include hover ();
+        
+        .call-us { 
+            @include flex(space-evenly,center);
+            background-color: $text-green;
+            border: none;
+            width: 170px;
+            height: 50px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            .talk {
+                position: relative;
+                bottom: 7px;
+                left: -10px;
+            }
+            .callus {
+                position: relative;
+                width: 61px;
+                height: 16px;
+                left: -10px;
+            }
+            .tel2 {
+                position: relative;
+                left: 10px;
+            }
+        }
+    }
+}

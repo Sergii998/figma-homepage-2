@@ -1,0 +1,39 @@
+.landscape {
+    display: flex;
+   
+    // background-color: rgb(253, 255, 111);
+    background-image: linear-gradient(79.58deg, rgba(0,115,12, 0.81) -39.14%, rgba(251, 246,238, 0)90.23%);
+    width: 1920px;
+    height: 719px;
+
+.landscape1 {
+    // position: relative;
+    width: 250px;
+    top: 100px;
+    img {
+        position: relative;
+        top: 380px;
+    }
+}
+.landscape2 {
+    width: 656px;
+    img{
+        position: relative;
+        top: 133px;
+        padding-right: 10px;
+    }
+    p {
+        @include nunito ();
+        margin-left: 30px;
+    }
+}
+.landscape3 {
+    // position: relative;
+    // top: 46px;
+    width: 1013px;
+    img{
+        position: relative;
+        top: 47px;
+    }
+}
+}

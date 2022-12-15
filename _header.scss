@@ -1,0 +1,36 @@
+
+.container {
+    // display: flex;
+    background-color: $text-green;
+    width: 1920px;
+    height: 59px;
+ 
+    // padding: $padding-m + 10px;
+   
+    @include flex(space-evenly,center);
+
+    a {
+        
+    color: $text-white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+        // line-height: 25px ;
+    }
+
+   .language {
+        a {&:hover {
+        color: red;}
+    
+    }
+   }
+   img {
+    position: relative;
+    top: 4px;
+   } 
+}
+
+
+

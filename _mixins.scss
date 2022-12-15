@@ -1,0 +1,15 @@
+@mixin flex($justify,$align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+ }
+ 
+ @mixin hover () {
+    &:hover {color: $text-green;}   
+ }
+ @mixin nunito () {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+ }
