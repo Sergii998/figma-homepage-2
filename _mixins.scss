@@ -13,3 +13,10 @@
     font-weight: 700;
     font-size: 16px;
  }
+ @mixin button-main() {
+   width: 190px;
+   height: 50px;
+   border-radius: 5px;
+   border: none;
+  
+}

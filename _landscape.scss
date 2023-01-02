@@ -19,14 +19,84 @@
     width: 656px;
     img{
         position: relative;
-        top: 133px;
-        padding-right: 10px;
+        bottom: -60px;
+        // margin-right: 100px
+        // padding-right: 10px;
     }
-    p {
+    h6 {
         @include nunito ();
         margin-left: 30px;
     }
 }
+    .landscape2-1 {
+    h1 {
+        font-family: 'Nunito';
+        font-weight: 800;
+        font-size: 58px;
+        // color: red;
+
+        .green-text {
+            color: $text-green;
+        }
+    }
+    
+    p {
+        color: $text-grey;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 0px;
+    }    
+    
+    .button-green {
+    @include button-main;
+    background-color: $text-green;
+    font-weight: 700;
+    font-size: 18px;
+    color: $text-white;
+    cursor: pointer;
+    }
+    .button-empty {
+        background-color: rgba(0,0,0,.0);
+        font-weight: 600;
+        font-size: 16px;
+        color: $text-grey;
+        border: none;
+        margin-left: 5%;
+        cursor: pointer;
+        .arrow {
+            position: relative;
+            top: 3px;
+            right: 0px;
+        }
+    }
+    } 
+    
+.landscape2-2 {
+    display: flex;
+    @include nunito ();
+    align-items: center;
+    justify-content: left;
+
+    div {
+        width: 30%;
+    }
+
+    p {
+        justify-content: center;
+        margin-left: 60px;
+        color: $text-main;
+        line-height: 0px;
+      
+    }
+    p {
+        justify-content: center;
+        margin-left: 60px;
+        color: $text-main;
+        line-height: 0px;
+    }
+}
+
+
 .landscape3 {
     // position: relative;
     // top: 46px;
