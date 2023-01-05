@@ -1,3 +1,59 @@
+@media  (max-width: 767px) {
+
+.container {
+   
+    background-color: $text-green;
+    width: 375px;
+    height: 55px;
+    display:flex;
+    
+    .image {
+        width:10%;
+        display: block;
+    
+     img {
+        position: relative;
+        left: 50%;
+        top: 30%;  
+        cursor: pointer;
+    } 
+    
+    .link-hide {
+        
+        display:none;
+    }   
+    
+    
+    
+    }
+
+
+    .language {
+        display: block;
+        width: 70%;
+               
+        a {
+        position: relative;
+        top: 30%;
+        left: 60%;
+        color: $text-white;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        &:hover {
+            color: red;}
+    }
+         
+        
+    }
+
+}
+
+}
+
+@media  (min-width: 768px) {
 
 .container {
     // display: flex;
@@ -33,4 +89,4 @@
 }
 
 
-
+}
