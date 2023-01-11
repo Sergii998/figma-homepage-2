@@ -163,69 +163,79 @@
     display: none;
   }
 }
-.landscape {
-  background-image: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
-  width: 375px;
-  height: 719px;
+@media (max-width: 767px) {
+  .landscape {
+    background-image: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+    width: 375px;
+    height: 719px;
+  }
+  .landscape .landscape1 {
+    height: 240px;
+  }
+  .landscape .landscape1 img {
+    display: none;
+  }
+  .landscape .landscape2 img {
+    position: relative;
+    bottom: -60px;
+    left: 10px;
+  }
+  .landscape .landscape2 h6 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .landscape .landscape2-1 h1 {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 28px;
+    padding: 0px 9px;
+  }
+  .landscape .landscape2-1 h1 .green-text {
+    color: #00730C;
+  }
+  .landscape .landscape2-1 p {
+    color: #676767;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 0px;
+    padding: 0px 9px;
+  }
+  .landscape .landscape2-1 .button-green {
+    width: 330px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00730C;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+  .landscape .landscape2-1 .button-empty {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  .landscape .landscape2-1 .button-empty .arrow {
+    position: relative;
+    top: 3px;
+    right: 0px;
+  }
+  .landscape3 div {
+    display: none;
+  }
+  .landscape3 div .foto2 {
+    display: none;
+  }
 }
-.landscape .landscape1 {
-  height: 240px;
-}
-.landscape .landscape2 img {
-  position: relative;
-  bottom: -60px;
-  left: 10px;
-}
-.landscape .landscape2 h6 {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  margin-left: 30px;
-}
-.landscape .landscape2-1 h1 {
-  font-family: "Nunito";
-  font-weight: 700;
-  font-size: 28px;
-  padding: 0px 9px;
-}
-.landscape .landscape2-1 h1 .green-text {
-  color: #00730C;
-}
-.landscape .landscape2-1 p {
-  color: #676767;
-  font-weight: 400;
-  font-size: 14px;
-  margin-left: 0px;
-  padding: 0px 9px;
-}
-.landscape .landscape2-1 .button-green {
-  width: 330px;
-  height: 44px;
-  border-radius: 5px;
-  border: none;
-  background-color: #00730C;
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-  margin-left: 5%;
-}
-.landscape .landscape2-1 .button-empty {
-  background-color: rgba(0, 0, 0, 0);
-  font-weight: 600;
-  font-size: 16px;
-  color: #676767;
-  border: none;
-  cursor: pointer;
-  margin-left: 25%;
-}
-.landscape .landscape2-1 .button-empty .arrow {
-  position: relative;
-  top: 3px;
-  right: 0px;
-}
-
 @media (min-width: 768px) {
   .landscape {
     display: flex;

@@ -20,3 +20,12 @@
    border: none;
   
 }
+
+@mixin h-one() {
+      font-family: 'Nunito';
+      font-weight: 700;
+      font-size: 28px;
+      padding: 0px 9px;
+      color: $text-main;
+      
+}

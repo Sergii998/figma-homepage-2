@@ -1,0 +1,34 @@
+// @media  (max-width: 767px) {
+
+// }
+
+h1 {
+font-size: 500px;
+
+}
+.services {
+
+h1 {
+
+    @include nunito ();
+//   @include h-one ();  
+
+//   font-family: 'Nunito';
+//   font-weight: 700;
+//   font-size: 28px;
+//   padding: 0px 9px;
+//   color: $text-main;
+// }
+
+span {
+
+    color: $text-green;
+}
+    
+}
+p {
+    @include nunito ();  
+    font-size: 28px;
+}
+
+}
