@@ -21,11 +21,19 @@
   
 }
 
-@mixin h-one() {
+@mixin h-1() {
       font-family: 'Nunito';
-      font-weight: 700;
-      font-size: 28px;
+      font-weight: 800;
+      font-size: 45px;
       padding: 0px 9px;
       color: $text-main;
       
+}
+@mixin p-1() {
+      
+   font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+     
 }

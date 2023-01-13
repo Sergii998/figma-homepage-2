@@ -1,0 +1,126 @@
+main {
+
+
+.services-list {
+    width: 1920px;
+   height: 700px;
+   
+
+h1 {
+    @include h-1 () ;
+    text-align: center;
+
+span {
+    color: $text-green;
+}  
+}
+
+p {
+    @include p-1 ();  
+    color: $text-grey;
+    padding: 0% 20%;
+    text-align: center;
+}
+
+
+
+.buttons1 {
+     display: flex;
+     justify-content: center;
+     height: 450px;
+     width: 1920px;
+     margin-top: 5%;
+
+     .tree-planting {
+        margin: 20px 30px 0 25px;
+     }
+ 
+   
+}
+
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 1920px;
+}
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+ 
+
+
+    .one {
+        display: block;
+        width: 750px;
+        height: 1000px;
+        background-color:rgb(231, 233, 227) ;
+      
+        .green-block {
+            position: relative;
+            margin: 20px 0 0 20px;
+
+        }
+
+        .resize-1 {
+            position: relative;
+            left: 50px;
+            top: -660px;
+            width: 601px;
+            height: 741px;
+            z-index: 10;
+        }
+
+        .resize-2 {
+            position: relative;
+            left: 240px;
+            bottom: 860px;
+            width: 456px;
+            height: 356px;
+            z-index: 20;
+        }
+
+    }
+
+    .two {
+        display: block;
+        width: 750px;
+        height: 1000px;
+        background-color: #f6fad6;
+
+        h1 {
+            margin-top: 10%;
+            text-align: start;
+        }
+
+        p {
+            text-align: justify;
+            padding: 0 3% 0 3%;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        
+        .years25 {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            img {
+
+                margin: 3%;
+            }
+
+
+        }
+        }
+
+    }
+}
+
+

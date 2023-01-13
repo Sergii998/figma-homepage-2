@@ -38,7 +38,7 @@
   }
 }
 @media (min-width: 768px) {
-  .container {
+  header .container {
     background-color: #00730C;
     width: 1920px;
     height: 59px;
@@ -46,7 +46,7 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  .container a {
+  header .container a {
     color: #ffffff;
     text-decoration: none;
     font-family: "Poppins";
@@ -54,10 +54,10 @@
     font-weight: 400;
     font-size: 14px;
   }
-  .container .language a:hover {
+  header .container .language a:hover {
     color: red;
   }
-  .container img {
+  header .container img {
     position: relative;
     top: 4px;
   }
@@ -333,6 +333,102 @@
   }
   .landscape .landscape3 img {
     position: relative;
-    top: 47px;
+    top: 140px;
   }
+}
+main .services-list {
+  width: 1920px;
+  height: 700px;
+}
+main .services-list h1 {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 45px;
+  padding: 0px 9px;
+  color: #212529;
+  text-align: center;
+}
+main .services-list h1 span {
+  color: #00730C;
+}
+main .services-list p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #676767;
+  padding: 0% 20%;
+  text-align: center;
+}
+main .services-list .buttons1 {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 1920px;
+  margin-top: 5%;
+}
+main .services-list .buttons1 .tree-planting {
+  margin: 20px 30px 0 25px;
+}
+main .services-list .buttons2 {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 1920px;
+}
+main .experience {
+  display: flex;
+  justify-content: center;
+}
+main .experience .one {
+  display: block;
+  width: 750px;
+  height: 1000px;
+  background-color: rgb(231, 233, 227);
+}
+main .experience .one .green-block {
+  position: relative;
+  margin: 20px 0 0 20px;
+}
+main .experience .one .resize-1 {
+  position: relative;
+  left: 50px;
+  top: -660px;
+  width: 601px;
+  height: 741px;
+  z-index: 10;
+}
+main .experience .one .resize-2 {
+  position: relative;
+  left: 240px;
+  bottom: 860px;
+  width: 456px;
+  height: 356px;
+  z-index: 20;
+}
+main .experience .two {
+  display: block;
+  width: 750px;
+  height: 1000px;
+  background-color: #f6fad6;
+}
+main .experience .two h1 {
+  margin-top: 10%;
+  text-align: start;
+}
+main .experience .two p {
+  text-align: justify;
+  padding: 0 3% 0 3%;
+  font-size: 16px;
+  line-height: 28px;
+}
+main .experience .two .years25 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+main .experience .two .years25 img {
+  margin: 3%;
 }/*# sourceMappingURL=style.css.map */
